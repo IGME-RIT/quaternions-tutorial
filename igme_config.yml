@@ -13,3 +13,5 @@ tags:
   - Math
 extra_resources:
   -
+connections:
+  - "euler-angles-tutorial"
