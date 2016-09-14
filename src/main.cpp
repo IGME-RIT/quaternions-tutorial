@@ -198,7 +198,7 @@ GLuint createShader(std::string sourceCode, GLenum shaderType)
 void init()
 {
 	// Set our baseRotate quaternion to a 1.0 degree rotation about the X-Y axis.
-	baseRotate = glm::angleAxis(glm::radians(1.0f), glm::vec3(1.0f, 1.0f, 0.0f));
+	baseRotate = glm::angleAxis(glm::radians(1.0f), glm::normalize(glm::vec3(1.0f, 1.0f, 0.0f)));
 
 	// Initializes the glew library
 	glewInit();
