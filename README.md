@@ -1,4 +1,4 @@
-# Marching Cubes Tutorial
+# Quaternions Tutorial
 
 Builds upon the [Improved3D]() project by introducing Quaternions.
 
